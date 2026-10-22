@@ -1,4 +1,4 @@
-# FRIEND OR PHISH? — CyberDesk
+# Phish-or-Friend — CyberDesk
 
 A Win95/98-style retro desktop (16-bit pixel art) for a phishing-awareness game. React 18 + Vite. All sites, people, links and files are fictional (`.example` domains); nothing is scanned, stored or sent.
 
