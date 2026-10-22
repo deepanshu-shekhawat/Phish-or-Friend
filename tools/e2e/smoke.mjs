@@ -1,0 +1,12 @@
+import { launch, toDesktop } from './lib.mjs';
+const { browser, page, errors } = await launch();
+await page.goto('http://127.0.0.1:4173/'); await page.waitForSelector('.warn-dialog');
+await page.screenshot({ path: 'shots/01-warning-early.png' });
+await page.waitForTimeout(1300); await page.screenshot({ path: 'shots/02-warning.png' });
+await page.click('text=Start CyberDesk'); await page.waitForSelector('.screen.boot');
+await page.waitForTimeout(1200); await page.screenshot({ path: 'shots/03-boot-logo.png' });
+await page.waitForTimeout(2600); await page.screenshot({ path: 'shots/04-boot-diag.png' });
+await page.waitForSelector('.desktop', { timeout: 9000 }); await page.waitForTimeout(2500);
+await page.screenshot({ path: 'shots/05-desktop.png' });
+console.log('ERRORS', JSON.stringify(errors, null, 1));
+await browser.close();

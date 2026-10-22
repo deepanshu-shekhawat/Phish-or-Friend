@@ -1,0 +1,242 @@
+[
+  {
+    "id": "startup",
+    "trigger": "Boot completes (desktop reveal)",
+    "duration": 3.0,
+    "volume": 0.6,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/startup.ogg",
+      "assets/cyberdesk/audio/startup.wav"
+    ]
+  },
+  {
+    "id": "shutdown",
+    "trigger": "Shutdown confirmed",
+    "duration": 2.36,
+    "volume": 0.6,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/shutdown.ogg",
+      "assets/cyberdesk/audio/shutdown.wav"
+    ]
+  },
+  {
+    "id": "click",
+    "trigger": "Any button / icon press",
+    "duration": 0.03,
+    "volume": 0.5,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/click.ogg",
+      "assets/cyberdesk/audio/click.wav"
+    ]
+  },
+  {
+    "id": "hover",
+    "trigger": "Menu row / icon hover (optional, quiet)",
+    "duration": 0.02,
+    "volume": 0.15,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/hover.ogg",
+      "assets/cyberdesk/audio/hover.wav"
+    ]
+  },
+  {
+    "id": "window-open",
+    "trigger": "Window opens",
+    "duration": 0.12,
+    "volume": 0.45,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/window-open.ogg",
+      "assets/cyberdesk/audio/window-open.wav"
+    ]
+  },
+  {
+    "id": "window-close",
+    "trigger": "Window closes / minimizes",
+    "duration": 0.12,
+    "volume": 0.45,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/window-close.ogg",
+      "assets/cyberdesk/audio/window-close.wav"
+    ]
+  },
+  {
+    "id": "menu-open",
+    "trigger": "Start menu / context menu opens",
+    "duration": 0.07,
+    "volume": 0.35,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/menu-open.ogg",
+      "assets/cyberdesk/audio/menu-open.wav"
+    ]
+  },
+  {
+    "id": "dialog-pop",
+    "trigger": "Dialog pop-in",
+    "duration": 0.18,
+    "volume": 0.45,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/dialog-pop.ogg",
+      "assets/cyberdesk/audio/dialog-pop.wav"
+    ]
+  },
+  {
+    "id": "warning",
+    "trigger": "Warning dialog / blocked action",
+    "duration": 0.38,
+    "volume": 0.55,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/warning.ogg",
+      "assets/cyberdesk/audio/warning.wav"
+    ]
+  },
+  {
+    "id": "error",
+    "trigger": "Error dialog / wrong decision",
+    "duration": 0.35,
+    "volume": 0.55,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/error.ogg",
+      "assets/cyberdesk/audio/error.wav"
+    ]
+  },
+  {
+    "id": "success",
+    "trigger": "Correct decision / task complete",
+    "duration": 0.7,
+    "volume": 0.5,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/success.ogg",
+      "assets/cyberdesk/audio/success.wav"
+    ]
+  },
+  {
+    "id": "email",
+    "trigger": "New email notification",
+    "duration": 1.1,
+    "volume": 0.5,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/email.ogg",
+      "assets/cyberdesk/audio/email.wav"
+    ]
+  },
+  {
+    "id": "notify",
+    "trigger": "Generic system notification",
+    "duration": 0.4,
+    "volume": 0.45,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/notify.ogg",
+      "assets/cyberdesk/audio/notify.wav"
+    ]
+  },
+  {
+    "id": "typing",
+    "trigger": "Typing in editor / text field (one key)",
+    "duration": 0.02,
+    "volume": 0.3,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/typing.ogg",
+      "assets/cyberdesk/audio/typing.wav"
+    ]
+  },
+  {
+    "id": "evidence",
+    "trigger": "Evidence discovered",
+    "duration": 0.7,
+    "volume": 0.5,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/evidence.ogg",
+      "assets/cyberdesk/audio/evidence.wav"
+    ]
+  },
+  {
+    "id": "report",
+    "trigger": "Report submitted",
+    "duration": 0.65,
+    "volume": 0.5,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/report.ogg",
+      "assets/cyberdesk/audio/report.wav"
+    ]
+  },
+  {
+    "id": "xp",
+    "trigger": "XP counter tick (repeat while counting)",
+    "duration": 0.08,
+    "volume": 0.3,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/xp.ogg",
+      "assets/cyberdesk/audio/xp.wav"
+    ]
+  },
+  {
+    "id": "achievement",
+    "trigger": "Achievement unlocked",
+    "duration": 1.7,
+    "volume": 0.6,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/achievement.ogg",
+      "assets/cyberdesk/audio/achievement.wav"
+    ]
+  },
+  {
+    "id": "download-done",
+    "trigger": "Download completed",
+    "duration": 0.35,
+    "volume": 0.4,
+    "loop": false,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/download-done.ogg",
+      "assets/cyberdesk/audio/download-done.wav"
+    ]
+  },
+  {
+    "id": "ambience",
+    "trigger": "Looping CRT / room hum while desktop is shown (very quiet)",
+    "duration": 4.0,
+    "volume": 0.08,
+    "loop": true,
+    "muteable": true,
+    "files": [
+      "assets/cyberdesk/audio/ambience.ogg",
+      "assets/cyberdesk/audio/ambience.wav"
+    ]
+  }
+]

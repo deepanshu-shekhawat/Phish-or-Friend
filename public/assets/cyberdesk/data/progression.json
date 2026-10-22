@@ -1,0 +1,118 @@
+{
+  "ranks": [
+    {
+      "id": "trainee",
+      "name": "Trainee",
+      "xp": 0
+    },
+    {
+      "id": "junior",
+      "name": "Junior Analyst",
+      "xp": 100
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "xp": 250
+    },
+    {
+      "id": "senior",
+      "name": "Senior Analyst",
+      "xp": 500
+    },
+    {
+      "id": "specialist",
+      "name": "Specialist",
+      "xp": 900
+    },
+    {
+      "id": "investigator",
+      "name": "Investigator",
+      "xp": 1400
+    },
+    {
+      "id": "chief",
+      "name": "Chief Inspector",
+      "xp": 2100
+    },
+    {
+      "id": "sage",
+      "name": "Cyber Sage",
+      "xp": 3000
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_report",
+      "name": "First Report"
+    },
+    {
+      "id": "sharp_eyes",
+      "name": "Sharp Eyes"
+    },
+    {
+      "id": "link_sleuth",
+      "name": "Link Sleuth"
+    },
+    {
+      "id": "safe_clicker",
+      "name": "Safe Clicker"
+    },
+    {
+      "id": "speed_reader",
+      "name": "Speed Reader"
+    },
+    {
+      "id": "perfect_run",
+      "name": "Perfect Run"
+    },
+    {
+      "id": "champion",
+      "name": "Champion"
+    },
+    {
+      "id": "key_keeper",
+      "name": "Key Keeper"
+    },
+    {
+      "id": "inbox_clear",
+      "name": "Inbox Clear"
+    },
+    {
+      "id": "attachment_hawk",
+      "name": "Attachment Hawk"
+    },
+    {
+      "id": "on_the_clock",
+      "name": "On the Clock"
+    },
+    {
+      "id": "bullseye",
+      "name": "Bullseye"
+    },
+    {
+      "id": "bookworm",
+      "name": "Bookworm"
+    },
+    {
+      "id": "lockdown",
+      "name": "Lockdown"
+    },
+    {
+      "id": "all_seeing",
+      "name": "All-Seeing"
+    },
+    {
+      "id": "cyber_royalty",
+      "name": "Cyber Royalty"
+    }
+  ],
+  "mascot": [
+    "idle",
+    "blink",
+    "happy",
+    "alert",
+    "thinking",
+    "warning"
+  ]
+}

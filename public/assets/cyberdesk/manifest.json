@@ -1,0 +1,5799 @@
+{
+ "generated_by": "tools/build_manifest.py",
+ "file_count": 594,
+ "missing": [],
+ "files": [
+  {
+   "file": "assets/cyberdesk/boot/logo-frame1.svg",
+   "rows": [
+    1
+   ],
+   "grid": "128x88",
+   "component": "BootScreen/Logo",
+   "note": "screen dark"
+  },
+  {
+   "file": "assets/cyberdesk/boot/logo-frame1.png",
+   "rows": [
+    1
+   ],
+   "grid": "128x88@3x",
+   "component": "BootScreen/Logo",
+   "note": "screen dark"
+  },
+  {
+   "file": "assets/cyberdesk/boot/logo-frame2.svg",
+   "rows": [
+    1
+   ],
+   "grid": "128x88",
+   "component": "BootScreen/Logo",
+   "note": "blue screen"
+  },
+  {
+   "file": "assets/cyberdesk/boot/logo-frame2.png",
+   "rows": [
+    1
+   ],
+   "grid": "128x88@3x",
+   "component": "BootScreen/Logo",
+   "note": "blue screen"
+  },
+  {
+   "file": "assets/cyberdesk/boot/logo-frame3.svg",
+   "rows": [
+    1
+   ],
+   "grid": "128x88",
+   "component": "BootScreen/Logo",
+   "note": "logo illuminated"
+  },
+  {
+   "file": "assets/cyberdesk/boot/logo-frame3.png",
+   "rows": [
+    1
+   ],
+   "grid": "128x88@3x",
+   "component": "BootScreen/Logo",
+   "note": "logo illuminated"
+  },
+  {
+   "file": "assets/cyberdesk/boot/logo.svg",
+   "rows": [
+    1
+   ],
+   "grid": "128x88",
+   "component": "BootScreen/Logo",
+   "note": "final frame (canonical)"
+  },
+  {
+   "file": "assets/cyberdesk/boot/logo.png",
+   "rows": [
+    1
+   ],
+   "grid": "128x88@3x",
+   "component": "BootScreen/Logo",
+   "note": "final frame (canonical)"
+  },
+  {
+   "file": "assets/cyberdesk/boot/emblem.svg",
+   "rows": [
+    2
+   ],
+   "grid": "16x16",
+   "component": "Emblem",
+   "note": "frame 1 / 3"
+  },
+  {
+   "file": "assets/cyberdesk/boot/emblem.png",
+   "rows": [
+    2
+   ],
+   "grid": "16x16@4x",
+   "component": "Emblem",
+   "note": "frame 1 / 3"
+  },
+  {
+   "file": "assets/cyberdesk/boot/emblem-bright.svg",
+   "rows": [
+    2
+   ],
+   "grid": "16x16",
+   "component": "Emblem",
+   "note": "frame 2 highlight"
+  },
+  {
+   "file": "assets/cyberdesk/boot/emblem-bright.png",
+   "rows": [
+    2
+   ],
+   "grid": "16x16@4x",
+   "component": "Emblem",
+   "note": "frame 2 highlight"
+  },
+  {
+   "file": "assets/cyberdesk/boot/boot-bg.png",
+   "rows": [
+    3
+   ],
+   "grid": "640x360",
+   "component": "BootScreen/Background",
+   "note": "CRT boot background"
+  },
+  {
+   "file": "assets/cyberdesk/boot/scanlines-tile.png",
+   "rows": [
+    12,
+    3
+   ],
+   "grid": "1x4",
+   "component": "CrtOverlay",
+   "note": "1x4 repeating scanline tile"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/memory-gray.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/memory-gray.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/memory.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/memory.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/memory-check.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/memory-check.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/storage-gray.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/storage-gray.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/storage.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/storage.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/storage-check.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/storage-check.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/network-gray.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/network-gray.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/network.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/network.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/network-check.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/network-check.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/audio-gray.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/audio-gray.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/audio.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/audio.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/audio-check.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/audio-check.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/display-gray.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/display-gray.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/display.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/display.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/display-check.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/display-check.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/security-gray.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/security-gray.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/security.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/security.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 2 colour"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/security-check.svg",
+   "rows": [
+    8
+   ],
+   "grid": "16x16",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/init/security-check.png",
+   "rows": [
+    8
+   ],
+   "grid": "16x16@3x",
+   "component": "BootScreen/InitIcon",
+   "note": "frame 3 check"
+  },
+  {
+   "file": "assets/cyberdesk/boot/disk-led-off.svg",
+   "rows": [
+    7
+   ],
+   "grid": "8x8",
+   "component": "DiskLed",
+   "note": "drive activity light"
+  },
+  {
+   "file": "assets/cyberdesk/boot/disk-led-off.png",
+   "rows": [
+    7
+   ],
+   "grid": "8x8@4x",
+   "component": "DiskLed",
+   "note": "drive activity light"
+  },
+  {
+   "file": "assets/cyberdesk/boot/disk-led-on.svg",
+   "rows": [
+    7
+   ],
+   "grid": "8x8",
+   "component": "DiskLed",
+   "note": "drive activity light"
+  },
+  {
+   "file": "assets/cyberdesk/boot/disk-led-on.png",
+   "rows": [
+    7
+   ],
+   "grid": "8x8@4x",
+   "component": "DiskLed",
+   "note": "drive activity light"
+  },
+  {
+   "file": "assets/cyberdesk/boot/shutdown.svg",
+   "rows": [
+    11
+   ],
+   "grid": "160x90",
+   "component": "ShutdownScreen",
+   "note": "shutdown still (final frame)"
+  },
+  {
+   "file": "assets/cyberdesk/boot/shutdown.png",
+   "rows": [
+    11
+   ],
+   "grid": "160x90@6x",
+   "component": "ShutdownScreen",
+   "note": "shutdown still (final frame)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/mail.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/mail.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/browser.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/browser.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/security.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/security.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/files.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/files.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/terminal.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/terminal.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/notes.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/notes.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/calculator.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/calculator.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/downloads.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/downloads.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/help.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/help.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/settings.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/settings.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/inspector.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/inspector.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/mission.svg",
+   "rows": [
+    26
+   ],
+   "grid": "32x32",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/app/mission.png",
+   "rows": [
+    26
+   ],
+   "grid": "32x32@2x",
+   "component": "AppIcon",
+   "note": "32x32 app icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/my_computer.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/my_computer.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/network.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/network.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/hard_drive.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/hard_drive.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/floppy_drive.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/floppy_drive.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/cd_drive.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/cd_drive.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/control_panel.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/control_panel.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/help.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/help.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/printer.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/printer.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/search.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/search.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/documents.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/documents.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/clock.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/clock.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/speaker.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/speaker.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/display.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/display.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/power.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/power.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/programs.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/programs.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/run.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/run.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/user.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/user.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/internet.svg",
+   "rows": [
+    25
+   ],
+   "grid": "32x32",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/system/internet.png",
+   "rows": [
+    25
+   ],
+   "grid": "32x32@2x",
+   "component": "SystemIcon",
+   "note": "32x32 system icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/folder.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/folder.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/text.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/text.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/document.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/document.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/pdf.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/pdf.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/image.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/image.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/spreadsheet.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/spreadsheet.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/archive.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/archive.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/executable.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/executable.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/script.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/script.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/shortcut.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/shortcut.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/unknown.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/unknown.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/attachment.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/attachment.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/quarantined.svg",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/filetype/quarantined.png",
+   "rows": [
+    27,
+    73
+   ],
+   "grid": "32x32@2x",
+   "component": "FileIcon",
+   "note": "32x32 file type icon (shared by rows 27 & 73)"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/info.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/info.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/warning.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/warning.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/error.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/error.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/success.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/success.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/suspicious.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/suspicious.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/verified.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/verified.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/blocked.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/blocked.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/unknown.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/unknown.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/shield.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/shield.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/evidence.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/evidence.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/question.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/question.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/pending.svg",
+   "rows": [
+    28
+   ],
+   "grid": "16x16",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/status/pending.png",
+   "rows": [
+    28
+   ],
+   "grid": "16x16@4x",
+   "component": "StatusIcon",
+   "note": "16x16 status icon"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/shortcut.svg",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/shortcut.png",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16@4x",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/blocked.svg",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/blocked.png",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16@4x",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/quarantine.svg",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/quarantine.png",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16@4x",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/warning.svg",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/warning.png",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16@4x",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/download.svg",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/download.png",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16@4x",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/check.svg",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/icons/overlay/check.png",
+   "rows": [
+    22,
+    27,
+    45,
+    73
+   ],
+   "grid": "16x16@4x",
+   "component": "IconOverlay",
+   "note": "16x16 overlay"
+  },
+  {
+   "file": "assets/cyberdesk/desktop/recycle-empty.svg",
+   "rows": [
+    23
+   ],
+   "grid": "32x32",
+   "component": "RecycleBin",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/desktop/recycle-empty.png",
+   "rows": [
+    23
+   ],
+   "grid": "32x32@2x",
+   "component": "RecycleBin",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/desktop/recycle-full.svg",
+   "rows": [
+    23
+   ],
+   "grid": "32x32",
+   "component": "RecycleBin",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/desktop/recycle-full.png",
+   "rows": [
+    23
+   ],
+   "grid": "32x32@2x",
+   "component": "RecycleBin",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/desktop/shortcut-arrow.svg",
+   "rows": [
+    22
+   ],
+   "grid": "16x16",
+   "component": "DesktopIcon",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/desktop/shortcut-arrow.png",
+   "rows": [
+    22
+   ],
+   "grid": "16x16@4x",
+   "component": "DesktopIcon",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-minimize.svg",
+   "rows": [
+    33
+   ],
+   "grid": "8x7",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-minimize.png",
+   "rows": [
+    33
+   ],
+   "grid": "8x7@4x",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-maximize.svg",
+   "rows": [
+    33
+   ],
+   "grid": "9x8",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-maximize.png",
+   "rows": [
+    33
+   ],
+   "grid": "9x8@4x",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-restore.svg",
+   "rows": [
+    33
+   ],
+   "grid": "9x8",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-restore.png",
+   "rows": [
+    33
+   ],
+   "grid": "9x8@4x",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-close.svg",
+   "rows": [
+    33
+   ],
+   "grid": "8x7",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-close.png",
+   "rows": [
+    33
+   ],
+   "grid": "8x7@4x",
+   "component": "WindowControls",
+   "note": "black glyph; recolour via CSS mask"
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-check.svg",
+   "rows": [
+    36
+   ],
+   "grid": "7x7",
+   "component": "Checkbox",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-check.png",
+   "rows": [
+    36
+   ],
+   "grid": "7x7@4x",
+   "component": "Checkbox",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-radio.svg",
+   "rows": [
+    36
+   ],
+   "grid": "4x4",
+   "component": "Radio",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-radio.png",
+   "rows": [
+    36
+   ],
+   "grid": "4x4@4x",
+   "component": "Radio",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-up.svg",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "7x4",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-up.png",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "7x4@4x",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-down.svg",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "7x4",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-down.png",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "7x4@4x",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-left.svg",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "4x7",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-left.png",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "4x7@4x",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-right.svg",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "4x7",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/window/glyph-arrow-right.png",
+   "rows": [
+    37,
+    36
+   ],
+   "grid": "4x7@4x",
+   "component": "Scrollbar/Select",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/reply.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/reply.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/reply_all.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/reply_all.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/forward.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/forward.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/delete.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/delete.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/archive.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/archive.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/compose.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/compose.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/search.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/search.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/report.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/report.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/print.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/print.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/mark_unread.svg",
+   "rows": [
+    46
+   ],
+   "grid": "16x16",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/mark_unread.png",
+   "rows": [
+    46
+   ],
+   "grid": "16x16@2x",
+   "component": "MailToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/back.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/back.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/forward_nav.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/forward_nav.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/refresh.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/refresh.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/home.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/home.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/stop.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/stop.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/lock.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/lock.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/lock_open.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/lock_open.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/star.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/star.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/new_tab.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/new_tab.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/download.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/download.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/user.svg",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/toolbar/user.png",
+   "rows": [
+    50,
+    51,
+    52
+   ],
+   "grid": "16x16@2x",
+   "component": "BrowserToolbar",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/pdf.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/pdf.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/doc.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/doc.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/img.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/img.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/xls.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/xls.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/zip.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/zip.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/exe.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/exe.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/txt.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/txt.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/js.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/js.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/html.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/html.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/unknown.svg",
+   "rows": [
+    45
+   ],
+   "grid": "16x16",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/icons/attach/unknown.png",
+   "rows": [
+    45
+   ],
+   "grid": "16x16@2x",
+   "component": "AttachmentChip",
+   "note": "16x16 attachment chip"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-credential.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-credential.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-impersonation.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-impersonation.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-link.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-link.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-attachment.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-attachment.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-payment.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-payment.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-social.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-social.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-spoof.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-spoof.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-other.svg",
+   "rows": [
+    68
+   ],
+   "grid": "32x32",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/security/threat-other.png",
+   "rows": [
+    68
+   ],
+   "grid": "32x32@2x",
+   "component": "ThreatCategory",
+   "note": "32x32"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-known.svg",
+   "rows": [
+    64
+   ],
+   "grid": "16x16",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-known.png",
+   "rows": [
+    64
+   ],
+   "grid": "16x16@4x",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-suspicious.svg",
+   "rows": [
+    64
+   ],
+   "grid": "16x16",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-suspicious.png",
+   "rows": [
+    64
+   ],
+   "grid": "16x16@4x",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-unknown.svg",
+   "rows": [
+    64
+   ],
+   "grid": "16x16",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-unknown.png",
+   "rows": [
+    64
+   ],
+   "grid": "16x16@4x",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-mismatch.svg",
+   "rows": [
+    64
+   ],
+   "grid": "16x16",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-mismatch.png",
+   "rows": [
+    64
+   ],
+   "grid": "16x16@4x",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-clue.svg",
+   "rows": [
+    64
+   ],
+   "grid": "16x16",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-clue.png",
+   "rows": [
+    64
+   ],
+   "grid": "16x16@4x",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-cert.svg",
+   "rows": [
+    64
+   ],
+   "grid": "16x16",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/investigation/evidence-cert.png",
+   "rows": [
+    64
+   ],
+   "grid": "16x16@4x",
+   "component": "EvidenceIndicator",
+   "note": "16x16"
+  },
+  {
+   "file": "assets/cyberdesk/cursors/arrow.svg",
+   "rows": [
+    29
+   ],
+   "grid": "12x18",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/arrow.png",
+   "rows": [
+    29
+   ],
+   "grid": "12x18@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/hand.svg",
+   "rows": [
+    29
+   ],
+   "grid": "18x20",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/hand.png",
+   "rows": [
+    29
+   ],
+   "grid": "18x20@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/ibeam.svg",
+   "rows": [
+    29
+   ],
+   "grid": "9x18",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/ibeam.png",
+   "rows": [
+    29
+   ],
+   "grid": "9x18@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-0.svg",
+   "rows": [
+    29
+   ],
+   "grid": "14x20",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-0.png",
+   "rows": [
+    29
+   ],
+   "grid": "14x20@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-1.svg",
+   "rows": [
+    29
+   ],
+   "grid": "14x20",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-1.png",
+   "rows": [
+    29
+   ],
+   "grid": "14x20@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-2.svg",
+   "rows": [
+    29
+   ],
+   "grid": "14x20",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-2.png",
+   "rows": [
+    29
+   ],
+   "grid": "14x20@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-3.svg",
+   "rows": [
+    29
+   ],
+   "grid": "14x20",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/busy-3.png",
+   "rows": [
+    29
+   ],
+   "grid": "14x20@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/forbidden.svg",
+   "rows": [
+    29
+   ],
+   "grid": "16x16",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/forbidden.png",
+   "rows": [
+    29
+   ],
+   "grid": "16x16@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_ns.svg",
+   "rows": [
+    29
+   ],
+   "grid": "15x15",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_ns.png",
+   "rows": [
+    29
+   ],
+   "grid": "15x15@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_ew.svg",
+   "rows": [
+    29
+   ],
+   "grid": "15x15",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_ew.png",
+   "rows": [
+    29
+   ],
+   "grid": "15x15@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_nwse.svg",
+   "rows": [
+    29
+   ],
+   "grid": "15x15",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_nwse.png",
+   "rows": [
+    29
+   ],
+   "grid": "15x15@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_nesw.svg",
+   "rows": [
+    29
+   ],
+   "grid": "15x15",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/resize_nesw.png",
+   "rows": [
+    29
+   ],
+   "grid": "15x15@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/crosshair.svg",
+   "rows": [
+    29
+   ],
+   "grid": "17x17",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/cursors/crosshair.png",
+   "rows": [
+    29
+   ],
+   "grid": "17x17@2x",
+   "component": "Cursors",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/maya-okafor.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Dr. Maya Okafor"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/maya-okafor.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Dr. Maya Okafor"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/liam-chen.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Liam Chen"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/liam-chen.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Liam Chen"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/sam-rivera.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Sam Rivera"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/sam-rivera.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Sam Rivera"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/priya-nair.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Priya Nair"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/priya-nair.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Priya Nair"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/jordan-blake.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Jordan Blake"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/jordan-blake.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Jordan Blake"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/alex-kim.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Alex Kim"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/alex-kim.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Alex Kim"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/dana-whitfield.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Dana Whitfield"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/dana-whitfield.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Dana Whitfield"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/tom-becker.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Tom Becker"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/tom-becker.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Tom Becker"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/rosa-martinez.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Rosa Martinez"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/rosa-martinez.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Rosa Martinez"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/ken-watanabe.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Ken Watanabe"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/ken-watanabe.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Ken Watanabe"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/nora-hughes.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Nora Hughes"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/nora-hughes.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Nora Hughes"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/omar-haddad.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Omar Haddad"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/omar-haddad.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Omar Haddad"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/ivy-park.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Ivy Park"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/ivy-park.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Ivy Park"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/chris-novak.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Chris Novak"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/chris-novak.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Chris Novak"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/northvale-bank.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Northvale Bank"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/northvale-bank.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Northvale Bank"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/eastbrook-university.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "Eastbrook University"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/eastbrook-university.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "Eastbrook University"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/parcelpoint.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "ParcelPoint Delivery"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/parcelpoint.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "ParcelPoint Delivery"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/nimbusdrive.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "NimbusDrive Cloud"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/nimbusdrive.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "NimbusDrive Cloud"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/it-helpdesk.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "IT Help Desk"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/it-helpdesk.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "IT Help Desk"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/paysure-hr.svg",
+   "rows": [
+    42
+   ],
+   "grid": "32x32",
+   "component": "Avatar",
+   "note": "PaySure Payroll"
+  },
+  {
+   "file": "assets/cyberdesk/mail/avatars/paysure-hr.png",
+   "rows": [
+    42
+   ],
+   "grid": "32x32@2x",
+   "component": "Avatar",
+   "note": "PaySure Payroll"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-idle.svg",
+   "rows": [
+    88
+   ],
+   "grid": "32x32",
+   "component": "Mascot",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-idle.png",
+   "rows": [
+    88
+   ],
+   "grid": "32x32@3x",
+   "component": "Mascot",
+   "note": "frame 1"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-blink.svg",
+   "rows": [
+    88
+   ],
+   "grid": "32x32",
+   "component": "Mascot",
+   "note": "frame 2"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-blink.png",
+   "rows": [
+    88
+   ],
+   "grid": "32x32@3x",
+   "component": "Mascot",
+   "note": "frame 2"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-happy.svg",
+   "rows": [
+    88
+   ],
+   "grid": "32x32",
+   "component": "Mascot",
+   "note": "frame 3"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-happy.png",
+   "rows": [
+    88
+   ],
+   "grid": "32x32@3x",
+   "component": "Mascot",
+   "note": "frame 3"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-alert.svg",
+   "rows": [
+    88
+   ],
+   "grid": "32x32",
+   "component": "Mascot",
+   "note": "frame 4"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-alert.png",
+   "rows": [
+    88
+   ],
+   "grid": "32x32@3x",
+   "component": "Mascot",
+   "note": "frame 4"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-thinking.svg",
+   "rows": [
+    88
+   ],
+   "grid": "32x32",
+   "component": "Mascot",
+   "note": "frame 5"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-thinking.png",
+   "rows": [
+    88
+   ],
+   "grid": "32x32@3x",
+   "component": "Mascot",
+   "note": "frame 5"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-warning.svg",
+   "rows": [
+    88
+   ],
+   "grid": "32x32",
+   "component": "Mascot",
+   "note": "frame 6"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-warning.png",
+   "rows": [
+    88
+   ],
+   "grid": "32x32@3x",
+   "component": "Mascot",
+   "note": "frame 6"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-sheet.svg",
+   "rows": [
+    88
+   ],
+   "grid": "192x32",
+   "component": "Mascot",
+   "note": "6 frames x 32px: idle,blink,happy,alert,thinking,warning"
+  },
+  {
+   "file": "assets/cyberdesk/mascot/finn-sheet.png",
+   "rows": [
+    88
+   ],
+   "grid": "192x32@3x",
+   "component": "Mascot",
+   "note": "6 frames x 32px: idle,blink,happy,alert,thinking,warning"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/trainee.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Trainee @ 0 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/trainee.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Trainee @ 0 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/trainee-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/trainee-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/junior.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Junior Analyst @ 100 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/junior.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Junior Analyst @ 100 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/junior-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/junior-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/analyst.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Analyst @ 250 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/analyst.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Analyst @ 250 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/analyst-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/analyst-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/senior.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Senior Analyst @ 500 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/senior.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Senior Analyst @ 500 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/senior-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/senior-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/specialist.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Specialist @ 900 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/specialist.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Specialist @ 900 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/specialist-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/specialist-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/investigator.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Investigator @ 1400 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/investigator.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Investigator @ 1400 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/investigator-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/investigator-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/chief.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Chief Inspector @ 2100 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/chief.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Chief Inspector @ 2100 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/chief-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/chief-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/sage.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "Cyber Sage @ 3000 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/sage.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "Cyber Sage @ 3000 XP"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/sage-locked.svg",
+   "rows": [
+    80
+   ],
+   "grid": "32x32",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/ranks/sage-locked.png",
+   "rows": [
+    80
+   ],
+   "grid": "32x32@2x",
+   "component": "RankBadge",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/first_report.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "First Report"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/first_report.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "First Report"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/first_report-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/first_report-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/sharp_eyes.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Sharp Eyes"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/sharp_eyes.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Sharp Eyes"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/sharp_eyes-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/sharp_eyes-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/link_sleuth.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Link Sleuth"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/link_sleuth.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Link Sleuth"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/link_sleuth-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/link_sleuth-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/safe_clicker.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Safe Clicker"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/safe_clicker.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Safe Clicker"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/safe_clicker-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/safe_clicker-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/speed_reader.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Speed Reader"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/speed_reader.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Speed Reader"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/speed_reader-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/speed_reader-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/perfect_run.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Perfect Run"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/perfect_run.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Perfect Run"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/perfect_run-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/perfect_run-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/champion.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Champion"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/champion.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Champion"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/champion-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/champion-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/key_keeper.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Key Keeper"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/key_keeper.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Key Keeper"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/key_keeper-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/key_keeper-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/inbox_clear.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Inbox Clear"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/inbox_clear.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Inbox Clear"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/inbox_clear-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/inbox_clear-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/attachment_hawk.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Attachment Hawk"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/attachment_hawk.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Attachment Hawk"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/attachment_hawk-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/attachment_hawk-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/on_the_clock.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "On the Clock"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/on_the_clock.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "On the Clock"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/on_the_clock-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/on_the_clock-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bullseye.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Bullseye"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bullseye.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Bullseye"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bullseye-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bullseye-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bookworm.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Bookworm"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bookworm.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Bookworm"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bookworm-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/bookworm-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/lockdown.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Lockdown"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/lockdown.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Lockdown"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/lockdown-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/lockdown-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/all_seeing.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "All-Seeing"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/all_seeing.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "All-Seeing"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/all_seeing-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/all_seeing-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/cyber_royalty.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "Cyber Royalty"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/cyber_royalty.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "Cyber Royalty"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/cyber_royalty-locked.svg",
+   "rows": [
+    81
+   ],
+   "grid": "32x32",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/progression/achievements/cyber_royalty-locked.png",
+   "rows": [
+    81
+   ],
+   "grid": "32x32@2x",
+   "component": "AchievementIcon",
+   "note": "locked frame"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/landscape.png",
+   "rows": [
+    14
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Main retro landscape (teal default alternative = CSS #008080)"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/landscape.webp",
+   "rows": [
+    14
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Main retro landscape (teal default alternative = CSS #008080)"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/landscape-thumb.png",
+   "rows": [
+    14
+   ],
+   "grid": "320x180",
+   "component": "Wallpaper",
+   "note": "thumbnail"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/campus.png",
+   "rows": [
+    15
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Alternate: campus"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/campus.webp",
+   "rows": [
+    15
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Alternate: campus"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/campus-thumb.png",
+   "rows": [
+    15
+   ],
+   "grid": "320x180",
+   "component": "Wallpaper",
+   "note": "thumbnail"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/night-city.png",
+   "rows": [
+    15
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Alternate: night city"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/night-city.webp",
+   "rows": [
+    15
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Alternate: night city"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/night-city-thumb.png",
+   "rows": [
+    15
+   ],
+   "grid": "320x180",
+   "component": "Wallpaper",
+   "note": "thumbnail"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/computer-room.png",
+   "rows": [
+    15
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Alternate: retro computer room"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/computer-room.webp",
+   "rows": [
+    15
+   ],
+   "grid": "1280x720",
+   "component": "Wallpaper",
+   "note": "Alternate: retro computer room"
+  },
+  {
+   "file": "assets/cyberdesk/wallpapers/computer-room-thumb.png",
+   "rows": [
+    15
+   ],
+   "grid": "320x180",
+   "component": "Wallpaper",
+   "note": "thumbnail"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/crt-off.svg",
+   "rows": [
+    84
+   ],
+   "grid": "44x38",
+   "component": "Crt",
+   "note": "screen off"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/crt-off.png",
+   "rows": [
+    84
+   ],
+   "grid": "44x38@3x",
+   "component": "Crt",
+   "note": "screen off"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/crt-on.svg",
+   "rows": [
+    84
+   ],
+   "grid": "44x38",
+   "component": "Crt",
+   "note": "screen on (glow pulse in CSS)"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/crt-on.png",
+   "rows": [
+    84
+   ],
+   "grid": "44x38@3x",
+   "component": "Crt",
+   "note": "screen on (glow pulse in CSS)"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/tower.svg",
+   "rows": [
+    85
+   ],
+   "grid": "24x40",
+   "component": "Tower",
+   "note": "static"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/tower.png",
+   "rows": [
+    85
+   ],
+   "grid": "24x40@3x",
+   "component": "Tower",
+   "note": "static"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/tower-on.svg",
+   "rows": [
+    85
+   ],
+   "grid": "24x40",
+   "component": "Tower",
+   "note": "power LED on"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/tower-on.png",
+   "rows": [
+    85
+   ],
+   "grid": "24x40@3x",
+   "component": "Tower",
+   "note": "power LED on"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/keyboard.svg",
+   "rows": [
+    85
+   ],
+   "grid": "56x16",
+   "component": "Keyboard",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/keyboard.png",
+   "rows": [
+    85
+   ],
+   "grid": "56x16@3x",
+   "component": "Keyboard",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/mouse.svg",
+   "rows": [
+    85
+   ],
+   "grid": "12x18",
+   "component": "Mouse",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/mouse.png",
+   "rows": [
+    85
+   ],
+   "grid": "12x18@3x",
+   "component": "Mouse",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/floppy-blue.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x24",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/floppy-blue.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x24@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/floppy-black.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x24",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/floppy-black.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x24@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/floppy-red.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x24",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/floppy-red.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x24@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/cd-rom.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x24",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/cd-rom.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x24@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/cd-r.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x24",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/cd-r.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x24@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/dvd.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x24",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/dvd.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x24@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/usb-red.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x12",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/usb-red.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x12@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/usb-blue.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x12",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/usb-blue.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x12@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/usb-black.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x12",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/usb-black.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x12@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/zip-disk.svg",
+   "rows": [
+    86
+   ],
+   "grid": "24x24",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/zip-disk.png",
+   "rows": [
+    86
+   ],
+   "grid": "24x24@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/external-hdd.svg",
+   "rows": [
+    86
+   ],
+   "grid": "28x18",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/external-hdd.png",
+   "rows": [
+    86
+   ],
+   "grid": "28x18@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/memory-card.svg",
+   "rows": [
+    86
+   ],
+   "grid": "16x20",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/storage/memory-card.png",
+   "rows": [
+    86
+   ],
+   "grid": "16x20@3x",
+   "component": "Storage",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/printer.svg",
+   "rows": [
+    87
+   ],
+   "grid": "40x30",
+   "component": "Printer",
+   "note": "idle"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/printer.png",
+   "rows": [
+    87
+   ],
+   "grid": "40x30@3x",
+   "component": "Printer",
+   "note": "idle"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/printer-paper.svg",
+   "rows": [
+    87
+   ],
+   "grid": "40x30",
+   "component": "Printer",
+   "note": "paper out frame"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/printer-paper.png",
+   "rows": [
+    87
+   ],
+   "grid": "40x30@3x",
+   "component": "Printer",
+   "note": "paper out frame"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/telephone.svg",
+   "rows": [
+    87
+   ],
+   "grid": "30x20",
+   "component": "Telephone",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/telephone.png",
+   "rows": [
+    87
+   ],
+   "grid": "30x20@3x",
+   "component": "Telephone",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/desk-lamp.svg",
+   "rows": [
+    87
+   ],
+   "grid": "28x34",
+   "component": "Lamp",
+   "note": "idle"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/desk-lamp.png",
+   "rows": [
+    87
+   ],
+   "grid": "28x34@3x",
+   "component": "Lamp",
+   "note": "idle"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/desk-lamp-on.svg",
+   "rows": [
+    87
+   ],
+   "grid": "28x34",
+   "component": "Lamp",
+   "note": "lamp lit"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/desk-lamp-on.png",
+   "rows": [
+    87
+   ],
+   "grid": "28x34@3x",
+   "component": "Lamp",
+   "note": "lamp lit"
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/papers.svg",
+   "rows": [
+    87
+   ],
+   "grid": "30x22",
+   "component": "Papers",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/papers.png",
+   "rows": [
+    87
+   ],
+   "grid": "30x22@3x",
+   "component": "Papers",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/cables.svg",
+   "rows": [
+    87
+   ],
+   "grid": "32x20",
+   "component": "Cables",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/cables.png",
+   "rows": [
+    87
+   ],
+   "grid": "32x20@3x",
+   "component": "Cables",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/manila-folder.svg",
+   "rows": [
+    87
+   ],
+   "grid": "32x24",
+   "component": "Folder",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/manila-folder.png",
+   "rows": [
+    87
+   ],
+   "grid": "32x24@3x",
+   "component": "Folder",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/coffee-mug.svg",
+   "rows": [
+    87
+   ],
+   "grid": "20x20",
+   "component": "Mug",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/coffee-mug.png",
+   "rows": [
+    87
+   ],
+   "grid": "20x20@3x",
+   "component": "Mug",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/sticky-notes.svg",
+   "rows": [
+    87
+   ],
+   "grid": "24x24",
+   "component": "Notes",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/sticky-notes.png",
+   "rows": [
+    87
+   ],
+   "grid": "24x24@3x",
+   "component": "Notes",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/potted-plant.svg",
+   "rows": [
+    87
+   ],
+   "grid": "22x30",
+   "component": "Plant",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/potted-plant.png",
+   "rows": [
+    87
+   ],
+   "grid": "22x30@3x",
+   "component": "Plant",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/stapler.svg",
+   "rows": [
+    87
+   ],
+   "grid": "28x14",
+   "component": "Stapler",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/sprites/office/stapler.png",
+   "rows": [
+    87
+   ],
+   "grid": "28x14@3x",
+   "component": "Stapler",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/fonts/vt323-latin-400-normal.woff2",
+   "rows": [
+    90
+   ],
+   "grid": "",
+   "component": "fonts.css",
+   "note": "Monospace terminal font (VT323)"
+  },
+  {
+   "file": "assets/cyberdesk/fonts/vt323-latin-400-normal.woff",
+   "rows": [
+    90
+   ],
+   "grid": "",
+   "component": "fonts.css",
+   "note": "Monospace terminal font (VT323)"
+  },
+  {
+   "file": "assets/cyberdesk/fonts/press-start-2p-latin-400-normal.woff2",
+   "rows": [
+    91
+   ],
+   "grid": "",
+   "component": "fonts.css",
+   "note": "Bitmap display font (Press Start 2P)"
+  },
+  {
+   "file": "assets/cyberdesk/fonts/press-start-2p-latin-400-normal.woff",
+   "rows": [
+    91
+   ],
+   "grid": "",
+   "component": "fonts.css",
+   "note": "Bitmap display font (Press Start 2P)"
+  },
+  {
+   "file": "assets/cyberdesk/fonts/pixelify-sans-latin-400-normal.woff2",
+   "rows": [
+    89
+   ],
+   "grid": "",
+   "component": "fonts.css",
+   "note": "Primary UI font (Pixelify Sans)"
+  },
+  {
+   "file": "assets/cyberdesk/fonts/pixelify-sans-latin-400-normal.woff",
+   "rows": [
+    89
+   ],
+   "grid": "",
+   "component": "fonts.css",
+   "note": "Primary UI font (Pixelify Sans)"
+  },
+  {
+   "file": "assets/cyberdesk/fonts/fonts.css",
+   "rows": [
+    89,
+    90,
+    91
+   ],
+   "grid": "",
+   "component": "fonts.css",
+   "note": "font-face declarations"
+  },
+  {
+   "file": "assets/cyberdesk/LICENSES/THIRD_PARTY.md",
+   "rows": [
+    89,
+    90,
+    91
+   ],
+   "grid": "",
+   "component": "docs",
+   "note": "attribution record"
+  },
+  {
+   "file": "assets/cyberdesk/data/signatures.json",
+   "rows": [
+    43
+   ],
+   "grid": "",
+   "component": "Mail/EmailBody",
+   "note": "8 fictional signatures"
+  },
+  {
+   "file": "assets/cyberdesk/data/layouts.json",
+   "rows": [
+    44
+   ],
+   "grid": "",
+   "component": "Mail/EmailBody",
+   "note": "6 body layouts (block lists rendered by EmailBody)"
+  },
+  {
+   "file": "assets/cyberdesk/data/contacts.json",
+   "rows": [
+    42
+   ],
+   "grid": "",
+   "component": "Mail",
+   "note": "20 avatars"
+  },
+  {
+   "file": "assets/cyberdesk/data/progression.json",
+   "rows": [
+    80,
+    81,
+    88
+   ],
+   "grid": "",
+   "component": "Progression",
+   "note": ""
+  },
+  {
+   "file": "assets/cyberdesk/audio/startup.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Boot completes (desktop reveal)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/startup.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Boot completes (desktop reveal)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/shutdown.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Shutdown confirmed"
+  },
+  {
+   "file": "assets/cyberdesk/audio/shutdown.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Shutdown confirmed"
+  },
+  {
+   "file": "assets/cyberdesk/audio/click.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Any button / icon press"
+  },
+  {
+   "file": "assets/cyberdesk/audio/click.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Any button / icon press"
+  },
+  {
+   "file": "assets/cyberdesk/audio/hover.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Menu row / icon hover (optional, quiet)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/hover.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Menu row / icon hover (optional, quiet)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/window-open.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Window opens"
+  },
+  {
+   "file": "assets/cyberdesk/audio/window-open.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Window opens"
+  },
+  {
+   "file": "assets/cyberdesk/audio/window-close.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Window closes / minimizes"
+  },
+  {
+   "file": "assets/cyberdesk/audio/window-close.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Window closes / minimizes"
+  },
+  {
+   "file": "assets/cyberdesk/audio/menu-open.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Start menu / context menu opens"
+  },
+  {
+   "file": "assets/cyberdesk/audio/menu-open.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Start menu / context menu opens"
+  },
+  {
+   "file": "assets/cyberdesk/audio/dialog-pop.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Dialog pop-in"
+  },
+  {
+   "file": "assets/cyberdesk/audio/dialog-pop.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Dialog pop-in"
+  },
+  {
+   "file": "assets/cyberdesk/audio/warning.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Warning dialog / blocked action"
+  },
+  {
+   "file": "assets/cyberdesk/audio/warning.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Warning dialog / blocked action"
+  },
+  {
+   "file": "assets/cyberdesk/audio/error.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Error dialog / wrong decision"
+  },
+  {
+   "file": "assets/cyberdesk/audio/error.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Error dialog / wrong decision"
+  },
+  {
+   "file": "assets/cyberdesk/audio/success.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Correct decision / task complete"
+  },
+  {
+   "file": "assets/cyberdesk/audio/success.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Correct decision / task complete"
+  },
+  {
+   "file": "assets/cyberdesk/audio/email.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "New email notification"
+  },
+  {
+   "file": "assets/cyberdesk/audio/email.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "New email notification"
+  },
+  {
+   "file": "assets/cyberdesk/audio/notify.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Generic system notification"
+  },
+  {
+   "file": "assets/cyberdesk/audio/notify.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Generic system notification"
+  },
+  {
+   "file": "assets/cyberdesk/audio/typing.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Typing in editor / text field (one key)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/typing.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Typing in editor / text field (one key)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/evidence.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Evidence discovered"
+  },
+  {
+   "file": "assets/cyberdesk/audio/evidence.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Evidence discovered"
+  },
+  {
+   "file": "assets/cyberdesk/audio/report.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Report submitted"
+  },
+  {
+   "file": "assets/cyberdesk/audio/report.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Report submitted"
+  },
+  {
+   "file": "assets/cyberdesk/audio/xp.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "XP counter tick (repeat while counting)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/xp.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "XP counter tick (repeat while counting)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/achievement.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Achievement unlocked"
+  },
+  {
+   "file": "assets/cyberdesk/audio/achievement.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Achievement unlocked"
+  },
+  {
+   "file": "assets/cyberdesk/audio/download-done.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Download completed"
+  },
+  {
+   "file": "assets/cyberdesk/audio/download-done.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Download completed"
+  },
+  {
+   "file": "assets/cyberdesk/audio/ambience.ogg",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Looping CRT / room hum while desktop is shown (very quiet)"
+  },
+  {
+   "file": "assets/cyberdesk/audio/ambience.wav",
+   "rows": [
+    92
+   ],
+   "grid": "",
+   "component": "engine/audio.js",
+   "note": "Looping CRT / room hum while desktop is shown (very quiet)"
+  }
+ ],
+ "components": {
+  "4": {
+   "components": [
+    "src/cyberdesk/os/Boot.jsx#BootScreen"
+   ],
+   "verified_by": "sweep 01-boot"
+  },
+  "5": {
+   "components": [
+    "src/cyberdesk/os/Boot.jsx",
+    "src/cyberdesk/styles/anim.css"
+   ],
+   "verified_by": "sweep 01-boot"
+  },
+  "6": {
+   "components": [
+    "src/cyberdesk/styles/anim.css (cd-blink)"
+   ],
+   "verified_by": "sweep 01-boot"
+  },
+  "9": {
+   "components": [
+    "src/cyberdesk/os/Boot.jsx#WarningScreen"
+   ],
+   "verified_by": "sweep 00-warning"
+  },
+  "10": {
+   "components": [
+    "src/cyberdesk/os/Boot.jsx",
+    "src/cyberdesk/styles/anim.css"
+   ],
+   "verified_by": "flow/sweep: boot -> desktop reveal"
+  },
+  "13": {
+   "components": [
+    "src/cyberdesk/os/Boot.jsx#CrtOverlay",
+    "src/cyberdesk/styles/anim.css (cd-flicker)"
+   ],
+   "verified_by": "CSS present; reduced-motion disables"
+  },
+  "16": {
+   "components": [
+    "src/cyberdesk/os/Taskbar.jsx"
+   ],
+   "verified_by": "sweep 02-desktop"
+  },
+  "17": {
+   "components": [
+    "src/cyberdesk/os/Taskbar.jsx#StartMenu"
+   ],
+   "verified_by": "sweep 03-startmenu"
+  },
+  "18": {
+   "components": [
+    "src/cyberdesk/os/Taskbar.jsx#Tray"
+   ],
+   "verified_by": "sweep 02-desktop"
+  },
+  "19": {
+   "components": [
+    "src/cyberdesk/os/Taskbar.jsx#Clock,Calendar"
+   ],
+   "verified_by": "sweep 04-calendar"
+  },
+  "20": {
+   "components": [
+    "src/cyberdesk/os/Desktop.jsx"
+   ],
+   "verified_by": "sweep 02-desktop"
+  },
+  "21": {
+   "components": [
+    "src/cyberdesk/os/Desktop.jsx#ContextMenu"
+   ],
+   "verified_by": "sweep 05-desktop-ctx"
+  },
+  "24": {
+   "components": [
+    "src/cyberdesk/os/ui.jsx#DialogView"
+   ],
+   "verified_by": "sweep2 s2-18-shutdown-dialog"
+  },
+  "30": {
+   "components": [
+    "src/cyberdesk/os/AppWindow.jsx",
+    "src/cyberdesk/styles/os.css"
+   ],
+   "verified_by": "all screenshots"
+  },
+  "31": {
+   "components": [
+    "src/cyberdesk/os/AppWindow.jsx (.inactive)"
+   ],
+   "verified_by": "sweep2 (stacked windows)"
+  },
+  "32": {
+   "components": [
+    "src/cyberdesk/os/AppWindow.jsx"
+   ],
+   "verified_by": "all screenshots"
+  },
+  "34": {
+   "components": [
+    "src/cyberdesk/os/AppWindow.jsx (8 handles)"
+   ],
+   "verified_by": "CSS/handles present; drag-resize not pixel-tested"
+  },
+  "35": {
+   "components": [
+    "src/cyberdesk/styles/os.css (.win box-shadow)"
+   ],
+   "verified_by": "all screenshots"
+  },
+  "38": {
+   "components": [
+    "src/cyberdesk/os/ui.jsx#Tip,ContextMenu"
+   ],
+   "verified_by": "flow 11-linkmenu, sweep 05"
+  },
+  "39": {
+   "components": [
+    "src/cyberdesk/os/ui.jsx#DialogView"
+   ],
+   "verified_by": "flow 15,17; sweep2 s2-01,05,18"
+  },
+  "40": {
+   "components": [
+    "src/cyberdesk/apps/Mail.jsx"
+   ],
+   "verified_by": "flow 10; sweep2"
+  },
+  "41": {
+   "components": [
+    "src/cyberdesk/apps/Mail.jsx"
+   ],
+   "verified_by": "flow 10; sweep2 s2-04"
+  },
+  "47": {
+   "components": [
+    "src/cyberdesk/apps/Mail.jsx"
+   ],
+   "verified_by": "flow 11-linkmenu"
+  },
+  "48": {
+   "components": [
+    "src/cyberdesk/os/Notifications.jsx#Toasts"
+   ],
+   "verified_by": "sweep2 s2-04 (Sam Rivera toast)"
+  },
+  "49": {
+   "components": [
+    "src/cyberdesk/apps/Mail.jsx"
+   ],
+   "verified_by": "sweep2 s2-04 (filter)"
+  },
+  "53": {
+   "components": [
+    "src/cyberdesk/apps/Browser.jsx#NewTab"
+   ],
+   "verified_by": "sweep 13"
+  },
+  "54": {
+   "components": [
+    "src/cyberdesk/apps/pages/Pages.jsx#Portal"
+   ],
+   "verified_by": "sweep 14"
+  },
+  "55": {
+   "components": [
+    "src/cyberdesk/apps/pages/Pages.jsx#Cloud"
+   ],
+   "verified_by": "sweep 21"
+  },
+  "56": {
+   "components": [
+    "src/cyberdesk/apps/pages/Pages.jsx#Login x5"
+   ],
+   "verified_by": "sweep 15, 16"
+  },
+  "57": {
+   "components": [
+    "src/cyberdesk/apps/pages/Pages.jsx#Payment,Tracking,Support,Job,Invoice,Bank"
+   ],
+   "verified_by": "sweep 17-20, 22"
+  },
+  "58": {
+   "components": [
+    "src/cyberdesk/apps/pages/Pages.jsx#ErrorPage,Warning,Blocked"
+   ],
+   "verified_by": "sweep 16, 23, 24"
+  },
+  "59": {
+   "components": [
+    "src/cyberdesk/apps/Downloads.jsx"
+   ],
+   "verified_by": "sweep 09; mail attach flow"
+  },
+  "60": {
+   "components": [
+    "src/cyberdesk/apps/LinkInspector.jsx"
+   ],
+   "verified_by": "flow 12"
+  },
+  "61": {
+   "components": [
+    "src/cyberdesk/apps/LinkInspector.jsx"
+   ],
+   "verified_by": "flow 12"
+  },
+  "62": {
+   "components": [
+    "src/cyberdesk/apps/LinkInspector.jsx#Chain"
+   ],
+   "verified_by": "flow 13 (after width fix)"
+  },
+  "63": {
+   "components": [
+    "src/cyberdesk/apps/LinkInspector.jsx"
+   ],
+   "verified_by": "flow 15-cert (captured, dialog opens)"
+  },
+  "65": {
+   "components": [
+    "src/cyberdesk/apps/LinkInspector.jsx"
+   ],
+   "verified_by": "flow 14-notes"
+  },
+  "66": {
+   "components": [
+    "src/cyberdesk/apps/SecurityCenter.jsx"
+   ],
+   "verified_by": "sweep 12"
+  },
+  "67": {
+   "components": [
+    "src/cyberdesk/apps/SecurityCenter.jsx"
+   ],
+   "verified_by": "flow 16"
+  },
+  "69": {
+   "components": [
+    "src/cyberdesk/apps/SecurityCenter.jsx"
+   ],
+   "verified_by": "flow report submitted dialog"
+  },
+  "70": {
+   "components": [
+    "src/cyberdesk/apps/SecurityCenter.jsx"
+   ],
+   "verified_by": "flow 18"
+  },
+  "71": {
+   "components": [
+    "src/cyberdesk/apps/Debrief.jsx"
+   ],
+   "verified_by": "flow 19"
+  },
+  "72": {
+   "components": [
+    "src/cyberdesk/apps/Files.jsx"
+   ],
+   "verified_by": "sweep 06"
+  },
+  "74": {
+   "components": [
+    "src/cyberdesk/apps/Files.jsx"
+   ],
+   "verified_by": "sweep2 s2-01"
+  },
+  "75": {
+   "components": [
+    "src/cyberdesk/apps/Notes.jsx"
+   ],
+   "verified_by": "sweep 07; sweep2 s2-02"
+  },
+  "76": {
+   "components": [
+    "src/cyberdesk/apps/Downloads.jsx"
+   ],
+   "verified_by": "sweep 09"
+  },
+  "77": {
+   "components": [
+    "src/cyberdesk/apps/Files.jsx"
+   ],
+   "verified_by": "sweep2 s2-03, s2-05"
+  },
+  "78": {
+   "components": [
+    "src/cyberdesk/os/Notifications.jsx"
+   ],
+   "verified_by": "all screenshots (toasts)"
+  },
+  "79": {
+   "components": [
+    "src/cyberdesk/os/Notifications.jsx#XpCounter,XpMini"
+   ],
+   "verified_by": "sweep2 s2-12, tray"
+  },
+  "82": {
+   "components": [
+    "src/cyberdesk/os/Desktop.jsx#MissionCard"
+   ],
+   "verified_by": "sweep 04"
+  },
+  "83": {
+   "components": [
+    "src/cyberdesk/apps/Debrief.jsx#Summary"
+   ],
+   "verified_by": "sweep2 s2-14"
+  },
+  "93": {
+   "components": [
+    "src/cyberdesk/styles/os.css",
+    "src/cyberdesk/CyberDesk.jsx (data-motion/contrast/touch)"
+   ],
+   "verified_by": "sweep2 s2-10, s2-11"
+  },
+  "94": {
+   "components": [
+    "src/cyberdesk/apps/Utilities.jsx"
+   ],
+   "verified_by": "sweep 10; sweep2 s2-07..13"
+  }
+ }
+}

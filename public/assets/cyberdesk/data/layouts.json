@@ -1,0 +1,66 @@
+[
+  {
+    "id": "plain",
+    "name": "Plain text",
+    "blocks": [
+      "greeting",
+      "body",
+      "signature"
+    ]
+  },
+  {
+    "id": "banner",
+    "name": "Branded banner",
+    "blocks": [
+      "banner",
+      "greeting",
+      "body",
+      "button",
+      "signature",
+      "footer"
+    ]
+  },
+  {
+    "id": "notice",
+    "name": "Formal notice",
+    "blocks": [
+      "banner",
+      "body",
+      "button",
+      "signature"
+    ]
+  },
+  {
+    "id": "alert",
+    "name": "Alert box",
+    "blocks": [
+      "alertbox",
+      "greeting",
+      "body",
+      "button",
+      "signature"
+    ]
+  },
+  {
+    "id": "receipt",
+    "name": "Receipt / summary",
+    "blocks": [
+      "banner",
+      "greeting",
+      "summary",
+      "button",
+      "signature",
+      "footer"
+    ]
+  },
+  {
+    "id": "thread",
+    "name": "Reply thread",
+    "blocks": [
+      "greeting",
+      "body",
+      "quote",
+      "signature"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+/* OS shell: screens, boot, desktop, taskbar, toasts, CRT */
+.os { position: absolute; inset: 0; display: flex; flex-direction: column; }
+.desktop { flex: 1; position: relative; min-height: 0; background: var(--cd-desktop); }
+.workarea { position: absolute; inset: 0; overflow: hidden; }
+.wallpaper { position: absolute; inset: 0; overflow: hidden; }
+.wp { position: absolute; inset: 0; background-size: cover; background-position: center; image-rendering: pixelated; }
+.wp.prev { z-index: 0; } .wp:not(.prev) { z-index: 1; }
+.ambient { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: radial-gradient(ellipse at 70% 30%, rgba(255,240,180,.16), transparent 60%); mix-blend-mode: screen; animation: cd-ambient 14s ease-in-out infinite alternate; }
+
+/* icons */
+.icons { position: absolute; inset: 8px; z-index: 3; display: grid; grid-auto-flow: column; grid-template-rows: repeat(auto-fill, 82px); grid-auto-columns: 84px; align-content: start; pointer-events: none; }
+.dicon { pointer-events: auto; width: 80px; height: 78px; background: none; border: 0; padding: 2px; display: flex; flex-direction: column; align-items: center; gap: 3px; color: #fff; font: inherit; font-size: 13px; }
+.dimg { position: relative; display: inline-flex; width: 36px; height: 36px; align-items: center; justify-content: center; }
+.dicon .sc-arrow { position: absolute; left: 2px; bottom: 2px; }
+.dlabel { text-align: center; line-height: 1.1; padding: 1px 3px; text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000; max-width: 78px; overflow-wrap: anywhere; }
+.dicon:hover .dimg img { filter: brightness(1.15); }
+.dicon.sel .dlabel { background: var(--cd-title); text-shadow: none; outline: 1px dotted #fff; }
+.dicon.sel .dimg img { filter: sepia(1) hue-rotate(190deg) saturate(3) brightness(.85); }
+.dicon:focus-visible { box-shadow: none !important; outline: 1px dotted #fff; }
+.band { position: absolute; border: 1px dotted #fff; background: rgba(0, 0, 128, .25); z-index: 4; pointer-events: none; }
+[data-touch=true] .dicon { width: 88px; height: 90px; }
+
+/* mission card */
+.mission { right: 14px; top: 12px; width: 300px; z-index: 5; }
+.mission-body { padding: 10px; font-size: 13px; position: relative; } .mission-body p { margin: 0 0 8px; padding-right: 54px; }
+.mission-finn { position: absolute; right: 8px; top: 8px; }
+.objs { list-style: none; padding: 0; margin: 0 0 6px; } .objs li { display: flex; gap: 6px; align-items: flex-start; padding: 2px 0; }
+.ob { width: 13px; height: 13px; background: #fff; box-shadow: var(--field); font-size: 11px; line-height: 13px; text-align: center; color: var(--cd-ok); flex: none; margin-top: 1px; }
+.objs li.done { color: #444; text-decoration: line-through; } .mission-foot { font-size: 12px; color: #444; border-top: 1px solid var(--cd-shadow); padding-top: 4px; }
+
+/* taskbar */
+.taskbar { height: 34px; flex: none; background: var(--cd-face); display: flex; align-items: center; gap: 4px; padding: 3px 4px; box-shadow: inset 0 1px 0 var(--cd-light), inset 0 2px 0 #fff; border-top: 1px solid var(--cd-face); position: relative; z-index: 800; }
+.start-btn { min-width: 0; display: flex; gap: 4px; align-items: center; height: 26px; padding: 0 8px; } .start-btn b { font-size: 15px; }
+.tb-sep { width: 2px; height: 24px; box-shadow: inset 1px 0 var(--cd-shadow), inset -1px 0 #fff; }
+.tb-wins { flex: 1; display: flex; gap: 3px; min-width: 0; overflow: hidden; }
+.tb-win { min-width: 0; flex: 0 1 170px; display: flex; gap: 4px; align-items: center; height: 26px; padding: 0 6px; text-align: left; justify-content: flex-start; }
+.tb-win span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .tb-win.pressed { background: repeating-conic-gradient(#fff 0 25%, var(--cd-face) 0 50%) 0 0 / 2px 2px; font-weight: bold; }
+.tray { display: flex; align-items: center; gap: 4px; height: 26px; padding: 0 6px; box-shadow: var(--sunken); }
+.tray-ico { background: none; border: 0; padding: 2px; position: relative; display: inline-flex; } .tray-ico .tray-x { position: absolute; right: -2px; bottom: -2px; } .tray-ico .dim { opacity: .45; }
+.tray-ico:hover { background: rgba(255,255,255,.4); }
+.clock { background: none; border: 0; font: inherit; font-size: 13px; padding: 2px 4px; min-width: 48px; } .clock.pressed { box-shadow: var(--sunken); }
+.xpmini { display: flex; align-items: center; gap: 4px; background: none; border: 0; padding: 2px 4px; font: inherit; font-size: 12px; }
+.xpmini .xpb { width: 34px; height: 8px; background: #fff; box-shadow: var(--field); padding: 1px; } .xpmini .xpb i { display: block; height: 100%; background: var(--cd-title); transition: width .5s steps(8); }
+.xpmini.flash { animation: cd-flash .5s steps(2) 3; }
+.startmenu { left: 2px; bottom: 36px; display: flex; padding: 3px; }
+.sm-side { width: 26px; background: linear-gradient(0deg, var(--cd-title), #1084d0); display: flex; align-items: flex-end; justify-content: flex-start; padding: 6px 2px; }
+.sm-side span { writing-mode: vertical-rl; transform: rotate(180deg); color: #fff; font-family: var(--cd-bit); font-size: 14px; letter-spacing: 1px; }
+.sm-rows { display: flex; flex-direction: column; min-width: 190px; padding-left: 2px; } .mrow.big { padding: 4px 10px 4px 6px; gap: 10px; font-size: 15px; }
+.calendar { position: absolute; right: 4px; bottom: 38px; z-index: 900; width: 220px; background: var(--cd-face); box-shadow: var(--raised), 1px 1px 0 1px #000, 4px 4px 0 rgba(0,0,0,.25); padding: 6px; }
+.cal-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; } .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); background: #fff; box-shadow: var(--field); padding: 3px; text-align: center; }
+.cal-grid .dow { color: var(--cd-title); font-weight: bold; } .cal-grid .day { padding: 2px 0; } .cal-grid .day.today { background: var(--cd-title); color: #fff; } .cal-foot { text-align: center; padding-top: 4px; font-size: 12px; }
+
+/* toasts */
+.toasts { position: absolute; right: 10px; bottom: 44px; z-index: 850; display: flex; flex-direction: column; gap: 6px; align-items: flex-end; pointer-events: none; }
+.toast { pointer-events: auto; width: 310px; display: flex; gap: 8px; align-items: flex-start; padding: 8px 6px 8px 8px; background: var(--cd-tooltip); border: 2px solid #000; box-shadow: 3px 3px 0 rgba(0,0,0,.4); }
+.toast.kind-email { border-color: var(--cd-title); } .toast.kind-security, .toast.kind-error { border-color: var(--cd-bad); } .toast.kind-achievement, .toast.kind-xp { border-color: var(--cd-ok); background: #f4ffe8; }
+.toast-txt { flex: 1; display: flex; flex-direction: column; min-width: 0; font-size: 13px; } .toast-txt b { font-size: 14px; } .toast-txt em { color: var(--cd-accent); font-style: normal; font-size: 11px; }
+.toast .wbtn { box-shadow: none; background: none; } .toast .wbtn:hover { background: rgba(0,0,0,.15); }
+
+/* screens */
+.screen { position: absolute; inset: 0; z-index: 2000; background: #000; color: var(--cd-term); overflow: hidden; }
+.screen.black { background: #000; } .screen.center { display: flex; align-items: center; justify-content: center; }
+.warn-dialog { width: 440px; }
+.boot { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding-top: 5vh; font-family: 'Bitcount', var(--cd-mono); cursor: var(--cd-cur-arrow); }
+.boot-bg { position: absolute; inset: 0; background-size: cover; image-rendering: pixelated; opacity: .9; }
+.boot-logo-wrap { position: relative; z-index: 1; } .boot-logo { display: block; transition: filter .3s; } .boot-logo.f1 { filter: brightness(.8); }
+.boot-emblem { position: absolute; left: 50%; top: 20px; margin-left: -16px; opacity: 0; } .boot-emblem.pulse { opacity: 0; }
+.diag { position: relative; z-index: 1; width: min(520px, 90%); margin-top: 18px; font-size: 20px; line-height: 1.1; color: var(--cd-term); text-shadow: 0 0 6px rgba(51,255,102,.6); min-height: 150px; font-family: 'Bitcount', var(--cd-mono); }
+.diag-line { display: flex; gap: 8px; align-items: center; margin: 1px 0; white-space: pre; font-family: 'Bitcount', var(--cd-mono); } .diag-line.ok { color: #aaffbb; }
+.cursor { display: inline-block; width: 9px; height: 16px; background: var(--cd-term); vertical-align: -2px; margin-left: 2px; animation: cd-blink 1s steps(1) infinite; }
+.boot-bar { position: relative; z-index: 1; width: min(520px, 90%); margin-top: 10px; display: flex; gap: 8px; align-items: center; font-family: 'Bitcount', var(--cd-mono); } .boot-bar .pbar { background: #222; }
+.boot-hint { position: absolute; bottom: 14px; z-index: 1; color: #6a6; font-size: 16px; font-family: 'Bitcount', var(--cd-mono); }
+.shutdown { display: flex; align-items: center; justify-content: center; background: #000; font-family: var(--cd-bit); color: var(--cd-warn); text-align: center; animation: cd-fadein .7s steps(7) both; }
+.sd-center { opacity: 0; transition: opacity .7s steps(7); } .shutdown.step1 .sd-center { opacity: 1; } .shutdown.step2 .sd-center { opacity: 0; }
+.sd-center p { margin: 10px 0; font-size: 14px; } .sd-logo { display: block; margin: 0 auto 18px; }
+.os.dimming { filter: brightness(.35) saturate(.5); transition: filter .7s steps(7); }
+
+/* CRT overlay */
+.crt { position: absolute; inset: 0; z-index: 3000; pointer-events: none; background: repeating-linear-gradient(0deg, rgba(0,0,0,.12) 0 1px, transparent 1px 3px); animation: cd-scan 9s linear infinite; mix-blend-mode: multiply; box-shadow: inset 0 0 90px rgba(0,0,0,.28); }
+.crt.flicker { animation: cd-scan 9s linear infinite, cd-flicker .5s steps(1) 1; }
+.cyberdesk[data-contrast=high] .crt { display: none; }
+.screen .win, .screen .dialog { color: #000; }

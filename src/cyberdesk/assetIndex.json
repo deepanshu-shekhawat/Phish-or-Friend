@@ -1,0 +1,234 @@
+{
+ "icons": {
+  "apps": [
+   "mail",
+   "browser",
+   "security",
+   "files",
+   "terminal",
+   "notes",
+   "calculator",
+   "downloads",
+   "help",
+   "settings",
+   "inspector",
+   "mission"
+  ],
+  "system": [
+   "my_computer",
+   "network",
+   "hard_drive",
+   "floppy_drive",
+   "cd_drive",
+   "control_panel",
+   "help",
+   "printer",
+   "search",
+   "documents",
+   "clock",
+   "speaker",
+   "display",
+   "power",
+   "programs",
+   "run",
+   "user",
+   "internet"
+  ],
+  "filetypes": [
+   "folder",
+   "text",
+   "document",
+   "pdf",
+   "image",
+   "spreadsheet",
+   "archive",
+   "executable",
+   "script",
+   "shortcut",
+   "unknown",
+   "attachment",
+   "quarantined"
+  ],
+  "status": [
+   "info",
+   "warning",
+   "error",
+   "success",
+   "suspicious",
+   "verified",
+   "blocked",
+   "unknown",
+   "shield",
+   "evidence",
+   "question",
+   "pending"
+  ]
+ },
+ "toolbar": [
+  "reply",
+  "reply_all",
+  "forward",
+  "delete",
+  "archive",
+  "compose",
+  "search",
+  "report",
+  "print",
+  "mark_unread"
+ ],
+ "nav": [
+  "back",
+  "forward_nav",
+  "refresh",
+  "home",
+  "stop",
+  "lock",
+  "lock_open",
+  "star",
+  "new_tab",
+  "download",
+  "user"
+ ],
+ "attach": [
+  "pdf",
+  "doc",
+  "img",
+  "xls",
+  "zip",
+  "exe",
+  "txt",
+  "js",
+  "html",
+  "unknown"
+ ],
+ "threats": [
+  "credential",
+  "impersonation",
+  "link",
+  "attachment",
+  "payment",
+  "social",
+  "spoof",
+  "other"
+ ],
+ "evidence": [
+  "known",
+  "suspicious",
+  "unknown",
+  "mismatch",
+  "clue",
+  "cert"
+ ],
+ "cursors": {
+  "arrow": [
+   0,
+   0
+  ],
+  "hand": [
+   7,
+   0
+  ],
+  "ibeam": [
+   4,
+   8
+  ],
+  "busy-0": [
+   7,
+   10
+  ],
+  "busy-1": [
+   7,
+   10
+  ],
+  "busy-2": [
+   7,
+   10
+  ],
+  "busy-3": [
+   7,
+   10
+  ],
+  "forbidden": [
+   8,
+   8
+  ],
+  "resize_ns": [
+   7,
+   7
+  ],
+  "resize_ew": [
+   7,
+   7
+  ],
+  "resize_nwse": [
+   7,
+   7
+  ],
+  "resize_nesw": [
+   7,
+   7
+  ],
+  "crosshair": [
+   8,
+   8
+  ]
+ },
+ "ranks": [
+  "trainee",
+  "junior",
+  "analyst",
+  "senior",
+  "specialist",
+  "investigator",
+  "chief",
+  "sage"
+ ],
+ "achievements": [
+  "first_report",
+  "sharp_eyes",
+  "link_sleuth",
+  "safe_clicker",
+  "speed_reader",
+  "perfect_run",
+  "champion",
+  "key_keeper",
+  "inbox_clear",
+  "attachment_hawk",
+  "on_the_clock",
+  "bullseye",
+  "bookworm",
+  "lockdown",
+  "all_seeing",
+  "cyber_royalty"
+ ],
+ "contacts": [
+  "maya-okafor",
+  "liam-chen",
+  "sam-rivera",
+  "priya-nair",
+  "jordan-blake",
+  "alex-kim",
+  "dana-whitfield",
+  "tom-becker",
+  "rosa-martinez",
+  "ken-watanabe",
+  "nora-hughes",
+  "omar-haddad",
+  "ivy-park",
+  "chris-novak",
+  "northvale-bank",
+  "eastbrook-university",
+  "parcelpoint",
+  "nimbusdrive",
+  "it-helpdesk",
+  "paysure-hr"
+ ],
+ "mascot": [
+  "idle",
+  "blink",
+  "happy",
+  "alert",
+  "thinking",
+  "warning"
+ ]
+}

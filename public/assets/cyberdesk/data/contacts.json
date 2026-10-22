@@ -1,0 +1,122 @@
+[
+  {
+    "id": "maya-okafor",
+    "name": "Dr. Maya Okafor",
+    "role": "Professor, Computer Science",
+    "kind": "person"
+  },
+  {
+    "id": "liam-chen",
+    "name": "Liam Chen",
+    "role": "Teaching Assistant",
+    "kind": "person"
+  },
+  {
+    "id": "sam-rivera",
+    "name": "Sam Rivera",
+    "role": "Classmate",
+    "kind": "person"
+  },
+  {
+    "id": "priya-nair",
+    "name": "Priya Nair",
+    "role": "Lab Partner",
+    "kind": "person"
+  },
+  {
+    "id": "jordan-blake",
+    "name": "Jordan Blake",
+    "role": "Team Manager",
+    "kind": "person"
+  },
+  {
+    "id": "alex-kim",
+    "name": "Alex Kim",
+    "role": "IT Support",
+    "kind": "person"
+  },
+  {
+    "id": "dana-whitfield",
+    "name": "Dana Whitfield",
+    "role": "Registrar Office",
+    "kind": "person"
+  },
+  {
+    "id": "tom-becker",
+    "name": "Tom Becker",
+    "role": "Facilities",
+    "kind": "person"
+  },
+  {
+    "id": "rosa-martinez",
+    "name": "Rosa Martinez",
+    "role": "Career Services",
+    "kind": "person"
+  },
+  {
+    "id": "ken-watanabe",
+    "name": "Ken Watanabe",
+    "role": "Library",
+    "kind": "person"
+  },
+  {
+    "id": "nora-hughes",
+    "name": "Nora Hughes",
+    "role": "Finance Office",
+    "kind": "person"
+  },
+  {
+    "id": "omar-haddad",
+    "name": "Omar Haddad",
+    "role": "Student Union",
+    "kind": "person"
+  },
+  {
+    "id": "ivy-park",
+    "name": "Ivy Park",
+    "role": "Classmate",
+    "kind": "person"
+  },
+  {
+    "id": "chris-novak",
+    "name": "Chris Novak",
+    "role": "Unknown Sender",
+    "kind": "person"
+  },
+  {
+    "id": "northvale-bank",
+    "name": "Northvale Bank",
+    "role": "Organisation",
+    "kind": "org"
+  },
+  {
+    "id": "eastbrook-university",
+    "name": "Eastbrook University",
+    "role": "Organisation",
+    "kind": "org"
+  },
+  {
+    "id": "parcelpoint",
+    "name": "ParcelPoint Delivery",
+    "role": "Organisation",
+    "kind": "org"
+  },
+  {
+    "id": "nimbusdrive",
+    "name": "NimbusDrive Cloud",
+    "role": "Organisation",
+    "kind": "org"
+  },
+  {
+    "id": "it-helpdesk",
+    "name": "IT Help Desk",
+    "role": "Organisation",
+    "kind": "org"
+  },
+  {
+    "id": "paysure-hr",
+    "name": "PaySure Payroll",
+    "role": "Organisation",
+    "kind": "org"
+  }
+]

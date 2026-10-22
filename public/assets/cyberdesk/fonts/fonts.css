@@ -1,0 +1,64 @@
+/* GENERATED. Fonts are SIL OFL 1.1; see assets/cyberdesk/LICENSES/ */
+@font-face { font-family: 'CyberDesk Mono'; src: url('./vt323-latin-400-normal.woff2') format('woff2'), url('./vt323-latin-400-normal.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'CyberDesk Bitmap'; src: url('./press-start-2p-latin-400-normal.woff2') format('woff2'), url('./press-start-2p-latin-400-normal.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'CyberDesk UI'; src: url('./pixelify-sans-latin-400-normal.woff2') format('woff2'), url('./pixelify-sans-latin-400-normal.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+
+/* Bitcount font family */
+@font-face {
+  font-family: 'Bitcount';
+  src: url('./bitcount/Bitcount-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Bitcount';
+  src: url('./bitcount/static/Bitcount-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Bitcount';
+  src: url('./bitcount/static/Bitcount-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Handjet font family */
+@font-face {
+  font-family: 'Handjet';
+  src: url('./handjet/Handjet-VariableFont_ELGR,ELSH,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Handjet';
+  src: url('./handjet/static/Handjet-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Handjet';
+  src: url('./handjet/static/Handjet-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Handjet';
+  src: url('./handjet/static/Handjet-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Handjet';
+  src: url('./handjet/static/Handjet-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

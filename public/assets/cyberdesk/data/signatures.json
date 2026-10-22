@@ -1,0 +1,76 @@
+[
+  {
+    "id": "sig-eastbrook-prof",
+    "name": "Eastbrook faculty",
+    "lines": [
+      "Dr. Maya Okafor",
+      "Professor of Computer Science",
+      "Eastbrook University - Hawthorn Hall 214",
+      "Office hours: Tue/Thu 2-4 pm"
+    ]
+  },
+  {
+    "id": "sig-eastbrook-reg",
+    "name": "Eastbrook registrar",
+    "lines": [
+      "Dana Whitfield",
+      "Office of the Registrar",
+      "Eastbrook University",
+      "registrar@eastbrook.example"
+    ]
+  },
+  {
+    "id": "sig-it",
+    "name": "IT Help Desk",
+    "lines": [
+      "Alex Kim - IT Support",
+      "Eastbrook IT Help Desk - Ext. 4357",
+      "Open Mon-Fri 8 am - 6 pm",
+      "Never share your password with anyone, including us."
+    ]
+  },
+  {
+    "id": "sig-bank",
+    "name": "Northvale Bank",
+    "lines": [
+      "Northvale Bank - Customer Care",
+      "We will never ask for your PIN or full password.",
+      "Member of the Fictional Deposit Scheme"
+    ]
+  },
+  {
+    "id": "sig-courier",
+    "name": "ParcelPoint",
+    "lines": [
+      "ParcelPoint Delivery",
+      "Customer Service Team",
+      "Track at parcelpoint.example"
+    ]
+  },
+  {
+    "id": "sig-cloud",
+    "name": "NimbusDrive",
+    "lines": [
+      "The NimbusDrive Team",
+      "NimbusDrive Cloud, Inc. (fictional)",
+      "You received this because you use NimbusDrive."
+    ]
+  },
+  {
+    "id": "sig-hr",
+    "name": "PaySure Payroll",
+    "lines": [
+      "PaySure Payroll Services",
+      "Payroll Desk",
+      "payroll@paysure.example"
+    ]
+  },
+  {
+    "id": "sig-student",
+    "name": "Student",
+    "lines": [
+      "Sent from my dorm room",
+      "Sam / Eastbrook CS '28"
+    ]
+  }
+]
